@@ -7,5 +7,5 @@ para el cual era necesario asegurarse que los datos cargados en su base de datos
 2. TRANSFORMACION DE DATOS
 3. CARGA DE DATOS
 4. IMPLEMENTACION DE PRUEBAS AUTOMATIZADAS
-5.REPORTE DE RESULTADOS
+5. REPORTE DE RESULTADOS
 
