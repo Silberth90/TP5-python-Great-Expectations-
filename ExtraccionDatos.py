@@ -35,11 +35,11 @@ data_cleaned = data.drop_duplicates(subset = ['customer_id','transaction_date'])
 
 #convertir el campo de 'sales_amount' a float,manejando errores
 
-data_cleaned['sales.amount'] = pd.to_numeric(data_cleaned['sales_amount'],errors = 'coerce')
+data_cleaned['sales_amount'] = pd.to_numeric(data_cleaned['sales_amount'],errors = 'coerce')
 
 #convertir el campo de 'transaction_date' al YYYY-MM-DD
 
-data_cleaned['transaction_date'] = pd.to_datetime(data_cleaned['transaction_date'],errors = 'coerce', format ='%y-%m-%d')
+data_cleaned['transaction_date'] = pd.to_datetime(data_cleaned['transaction_date'],errors = 'coerce', format ='%Y-%m-%d')
 
 print("\nDatos despues de la transformacion: ")
 print(data_cleaned)
